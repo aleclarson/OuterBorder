@@ -2,6 +2,7 @@
 {Component, Device} = require "modx"
 {Style, Element} = require "react-validators"
 {AnimatedValue} = require "Animated"
+{View} = require "modx/views"
 
 hexToRgb = require "hex-rgb"
 isType = require "isType"
