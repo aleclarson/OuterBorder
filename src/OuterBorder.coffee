@@ -1,12 +1,14 @@
 
-{Component, Device} = require "modx"
 {Style, Element} = require "react-validators"
 {AnimatedValue} = require "Animated"
 
+ReactComponent = require "modx/lib/Component"
 hexToRgb = require "hex-rgb"
+Device = require "modx/lib/Device"
 isType = require "isType"
+View = require "modx/lib/View"
 
-type = Component "OuterBorder"
+type = ReactComponent "OuterBorder"
 
 type.defineProps
   style: Style
